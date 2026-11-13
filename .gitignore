@@ -1,0 +1,42 @@
+# Python 가상환경
+.venv/
+
+# API 키 및 환경변수 (빈 예시 파일은 공개 가능)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+secrets.toml.*
+
+# Python 임시 파일
+__pycache__/
+*.pyc
+
+# 테스트 및 캐시
+.pytest_cache/
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 사용자 가상 원장·연구 입력/실행 기록 (기존 제외 규칙 유지)
+data/*.sqlite3
+data/*.sqlite3-*
+
+# 모든 경로의 SQLite DB, WAL/SHM/journal 및 백업 DB
+*.sqlite3
+*.sqlite3-*
+*.sqlite3.*
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.db
+*.db-*
+*.db.*
+*.bak
+*.backup
+backups/
+
+# 기존 비정상 이름의 로컬 파일은 삭제하지 않고 제외
+/ add development logs for steps 1-13

@@ -1,0 +1,451 @@
+{
+  "baseline_commit": "4266787",
+  "calculation_version": "backtest-experiment-v1",
+  "code_digest": "70420772fa7367bdd59529c7ab563571db843f9aa20bd30865f1afbf5c2aaeea",
+  "data_kind": "SYNTHETIC_ONLY",
+  "environment": {
+    "langgraph": "1.2.15",
+    "numpy": "2.4.6",
+    "openai": "2.54.0",
+    "pandas": "3.0.6",
+    "plotly": "7.1.0",
+    "pydantic": "2.14.1",
+    "streamlit": "1.64.0"
+  },
+  "experiment_metrics": [
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 3.8461538461538547,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "전체",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.394257163867506,
+        "closed_trades": 2,
+        "cumulative_return_pct": -2.478851432773499,
+        "final_equity": 975.211485672265,
+        "max_drawdown_pct": 2.478851432773499,
+        "realized_pnl": -24.788514327735008,
+        "rejected_orders": 0,
+        "total_fees": 3.9502465814704535,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "전체",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 3.8461538461538547,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "전체",
+      "strategy": "손절 검산 B"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.394257163867506,
+        "closed_trades": 2,
+        "cumulative_return_pct": -2.478851432773499,
+        "final_equity": 975.211485672265,
+        "max_drawdown_pct": 2.478851432773499,
+        "realized_pnl": -24.788514327735008,
+        "rejected_orders": 0,
+        "total_fees": 3.9502465814704535,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "전체",
+      "strategy": "손절 검산 B"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 0.0,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "검토",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.472032967032884,
+        "closed_trades": 1,
+        "cumulative_return_pct": -1.247203296703292,
+        "final_equity": 987.5279670329671,
+        "max_drawdown_pct": 1.247203296703292,
+        "realized_pnl": -12.472032967032883,
+        "rejected_orders": 0,
+        "total_fees": 1.9875174825174828,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "검토",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 0.0,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "검토",
+      "strategy": "손절 검산 B"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.472032967032884,
+        "closed_trades": 1,
+        "cumulative_return_pct": -1.247203296703292,
+        "final_equity": 987.5279670329671,
+        "max_drawdown_pct": 1.247203296703292,
+        "realized_pnl": -12.472032967032883,
+        "rejected_orders": 0,
+        "total_fees": 1.9875174825174828,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "검토",
+      "strategy": "손절 검산 B"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 0.0,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "검증",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.472032967032884,
+        "closed_trades": 1,
+        "cumulative_return_pct": -1.247203296703292,
+        "final_equity": 987.5279670329671,
+        "max_drawdown_pct": 1.247203296703292,
+        "realized_pnl": -12.472032967032883,
+        "rejected_orders": 0,
+        "total_fees": 1.9875174825174828,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "검증",
+      "strategy": "손절 검산 A"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": null,
+        "closed_trades": 0,
+        "cumulative_return_pct": 3.844181805201319,
+        "final_equity": 1038.441818052013,
+        "max_drawdown_pct": 0.0,
+        "realized_pnl": -0.999000999000999,
+        "rejected_orders": 0,
+        "total_fees": 0.999000999000999,
+        "unrealized_pnl": 39.44081905101398,
+        "win_rate_pct": null
+      },
+      "risk": "OFF",
+      "segment": "검증",
+      "strategy": "손절 검산 B"
+    },
+    {
+      "metrics": {
+        "average_trade_pnl": -12.472032967032884,
+        "closed_trades": 1,
+        "cumulative_return_pct": -1.247203296703292,
+        "final_equity": 987.5279670329671,
+        "max_drawdown_pct": 1.247203296703292,
+        "realized_pnl": -12.472032967032883,
+        "rejected_orders": 0,
+        "total_fees": 1.9875174825174828,
+        "unrealized_pnl": 0.0,
+        "win_rate_pct": 0.0
+      },
+      "risk": "ON",
+      "segment": "검증",
+      "strategy": "손절 검산 B"
+    }
+  ],
+  "fixture_sha256_lf": {
+    "synthetic_account.json": "aaa0332e80205d62cfe76400cee616b64ebbe1ba4654db2ac3a2f1588f5081a0",
+    "synthetic_experiment.json": "d4ee95f883c0bba8cda3b931a19e60c26766167efafaf9220b29734d4afde5df"
+  },
+  "protected_code_sha256_lf": {
+    "backtest/engine.py": "d043e6ab6b5d709bab203b2f4d4fb70bd5918f4074960246c5d26c018efa4706",
+    "backtest/experiments.py": "eb904ce8cf179769b9ee0496eec4c91fa3a31b4e30c19ee5c3c8f1398ce6344d",
+    "backtest/metrics.py": "7614b9b47f7a8f0a4bec940f10124689da499d4b532d1f0b206041ad854180ff",
+    "backtest/models.py": "eeea9bcff204c086fba6faf16d95c7e8669954ee24113dd6d66cc8569328b763",
+    "backtest/risk.py": "fa31979246930f0a9fb32d258c9743d953c00ff88bbfd1a7fb884e3ace91f1af",
+    "config/settings.py": "fe2a2913cfdb19f92a9c2c7a229950b62591cc0626cfa9ab7b53a0229563754e",
+    "indicators/technical.py": "b198e081d42428bed0865468d419b73e9811719d7397cc8e0f15f7fcfa622eb5",
+    "services/research_snapshots.py": "54f5dcaa38f4f8469a13dd14e91d099326f526de9d00a7185d962190dc0d52e9",
+    "strategies/evaluator.py": "02f4b36a3b8a813032a90906466f5abefc867bad2ef570bd8ffd1221844cd399",
+    "strategies/models.py": "457885c7314f33139d01fa6b9dd9dfeef99009dce9438b1f278148dfdd323535",
+    "strategies/storage.py": "7372bc4b92cacb5649fd9b0c56da5a1b28e68fa587f7d5368bfbdfcc5ed345ac"
+  },
+  "protected_runtime_sha256_lf": {
+    "agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "agents/bear_agent.py": "4262129fe49347037049d81ad89bd43f5b2579cdba386d8a2ae96e15c9b1e552",
+    "agents/bull_agent.py": "ecd424be623c53a63ec0fd899eea2dbf095449e31c512447aeebb27bb06b6524",
+    "agents/debate.py": "7ccfc743721cd24df28df90f64d800312233ca7dd8537a5d55d29863267e5b1d",
+    "agents/llm_agents.py": "66f96177deed4db033f855db47d5d1044462b63a1dc3bd2070e9ff9a0955e940",
+    "agents/research.py": "a46991abc64c82ca79e73bbc49277ef047b12773a1670066f5183bbf1d13c4a3",
+    "agents/risk_manager.py": "a98d144bc4a6f68ffff6d2d4aa506065b5bc4ded267ed008c35628f794274356",
+    "analytics/__init__.py": "d274ab4f157efb5b114dde08040c6f7968b39e22a6392b14aea7c40a1dc55a57",
+    "analytics/alignment.py": "3c5db1eb1194a0d614e4182ca0a9c05e6256803f422943829b5d7ef539bf3f6f",
+    "analytics/analysis.py": "ad6a10c1ec5bb8455d6fb429d944f3b8f72044ac0c84e600f000ad7e370beb92",
+    "analytics/correlation.py": "7f2bd517efba55046f8ea1bb100b26460db220e09e2e4cfb1f2585020f6e3286",
+    "analytics/lag_analysis.py": "400e4a87a46a53a5f8dc1b2a2e68fa4ef7e3bc4eff001ead85115c03d5a6cc2b",
+    "analytics/models.py": "769918d56bb73f48f5929357cc559170ce56746a802adeef6a4df822268c5231",
+    "backtest/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backtest/engine.py": "d043e6ab6b5d709bab203b2f4d4fb70bd5918f4074960246c5d26c018efa4706",
+    "backtest/experiment_verification.py": "9f1ad7e6266c8d502e4617c08378bf78dc44995c6a4edab7d8123659bbec23a5",
+    "backtest/experiments.py": "eb904ce8cf179769b9ee0496eec4c91fa3a31b4e30c19ee5c3c8f1398ce6344d",
+    "backtest/metrics.py": "7614b9b47f7a8f0a4bec940f10124689da499d4b532d1f0b206041ad854180ff",
+    "backtest/models.py": "eeea9bcff204c086fba6faf16d95c7e8669954ee24113dd6d66cc8569328b763",
+    "backtest/risk.py": "fa31979246930f0a9fb32d258c9743d953c00ff88bbfd1a7fb884e3ace91f1af",
+    "collectors/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collectors/binance.py": "751905e233971636dfbf0b495a18cd37b89fb1d306eee9d86c925e6bfd072490",
+    "collectors/diagnostics.py": "60bb35648ab77f93f383044a616fdf5f50341f7a07aec8b2fa5960d92726133f",
+    "collectors/errors.py": "d1ac3d939cb1840653ced676f1bde79fc0db4993bb452770c257c5c63d4f4d67",
+    "collectors/fred.py": "9068b24e02f0dc4f0860e8ad01b84835ee25bfd914f6080a5516ead1acadb35c",
+    "config/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config/llm_settings.py": "43f9937cad1377b8f76e32d3418198a9d590719421dd27b26407dd9e314a45f0",
+    "config/risk_settings.py": "6c8afb41aa11ef210f362fb8e3fcb97e66c2852f1d82f49ced75338ae01cfdc6",
+    "config/settings.py": "fe2a2913cfdb19f92a9c2c7a229950b62591cc0626cfa9ab7b53a0229563754e",
+    "graph/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "graph/debate_nodes.py": "186c862774fe8efcf3a3ea873ae7bbd566916cda732540689e7adbca7bf71700",
+    "graph/debate_state.py": "68861c17b55ffc7dbeb88d054ac267ec23db5206f354bf81c5dbaa9593eb6a79",
+    "graph/debate_validation.py": "0a5211893aa92e5ebf47adadf0eb635af90caf88718319ad2831b428c96e9251",
+    "graph/debate_workflow.py": "93a059d424692a44ba1c17b7ab1b23b425db7a6611de6069bd583f6cf47936eb",
+    "graph/nodes.py": "1212b96c59cdd257a89cbbbc9aaf64ae60a0f506172f73bafb3d8aae7d93b670",
+    "graph/risk_nodes.py": "92b38454ba7f5cd9d74cc292b8b55911b70b8345cf8202f2fc6bf8630c49b820",
+    "graph/risk_state.py": "fb69f740f6683ce099d8fd80c831a369814d705bcf8b5325bf5f1d454c6285da",
+    "graph/runner.py": "9e38b3f2f0054bbf73a26b65b0c27972c9d34776def15d6def478d09bf33fc52",
+    "graph/state.py": "660d728d4d1c5b9e40e9e1cc4cdff9ace2a69b644c1afd6c6c7f8684a31fedb0",
+    "graph/validation.py": "d7d23614953f04b7be4d63e3cfecf382e4853555d15c668aa6f2b949e7d2b0ce",
+    "graph/workflow.py": "543e06eb88265e5ed4ffb8b307affcb21d2035a7f7de64114e364d64d2bfb41c",
+    "indicators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "indicators/technical.py": "b198e081d42428bed0865468d419b73e9811719d7397cc8e0f15f7fcfa622eb5",
+    "llm/__init__.py": "701e03d0ed6f4b83cdd3c255b50cbe6f7dc9faaa10f5b17015325c0ca4efa0c2",
+    "llm/agent_contracts.py": "c04d7315b23c770f11f1fdc81e683e6b52f86a19f3d36c5d01ef463573c3eeed",
+    "llm/budget.py": "dbfbc1b94d385bd66eef7856b46db5805834d207a2e1636c41e0afab4c4cb85c",
+    "llm/client.py": "b64481440579d953c04dd6274bb5d30a00ee5263a1f401806f38cea0db8cd339",
+    "llm/config.py": "0c55fde19c52503da5606017b670ac8f040276e47971ef301bc318c99ebc702e",
+    "llm/prompts.py": "8af7a5801a28ed06990a2515ea27df87a439454aa5c3d98774629da0426cc712",
+    "llm/schemas.py": "f25144b736609305b83569b841154008ac4fb825c57e7b0a006233f7ac70b32a",
+    "llm/validators.py": "07f77b9e37b21c8973a0025f6ad660fcdce0e57c31644a1a2f786243f8116c3f",
+    "models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "models/macro.py": "e28a289a66120b4d4075caa1f9bf3bce2e9777f089529384d58aee2c4e047587",
+    "models/research.py": "e0d5fe63ecc468f1df5c3643a883b30f41a7c7cbd1073cfbdc2be404be93dc06",
+    "portfolio/__init__.py": "cc372c5f9a6c7f1da1fb4f4343db76c51bffaf054bc58b6fe46dab1e0499b0af",
+    "portfolio/engine.py": "012319713490432ec2be7254327ad9ba363c3e527c140f0a47327c986a12f794",
+    "portfolio/models.py": "58b1af44444d99e954855e06b6848813fd7d503965b3706abbaff4c4bcbef8a7",
+    "risk/__init__.py": "9ccca4cbf02940ddbb2beec41ac6da82f3ee301e8be13f9bb7af6014e0802e01",
+    "risk/evaluator.py": "1d42e517fc742e4d11b5af1697da45f333fb10409ee1f521adef7e34edd1734c",
+    "risk/metrics.py": "4181a8b21c0f6b4c267a4830d901f50ad2e6f2be4f6bd33ffde5041aa9c0854d",
+    "risk/models.py": "83f6cc33ace1d024f05680ab10931d14d700cf605ceb22355d023376612830c6",
+    "risk/portfolio.py": "1a5eab75b9db8aa76548098510ab81955ed70db7c2b91adb3184a0373a4447c0",
+    "risk/position.py": "4697861140fe52e0b29c46e1cd6571fceb297dd0959a44ba407093448df625b7",
+    "services/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "services/ai_analysis_service.py": "c4250efced1d0f087da41a8f5350b900adedfb94da3b5d684511d15aba276b3d",
+    "services/ai_inputs.py": "cc998f601b985ead9472961941bc2e1d302c6bc6b5747a32dfe821155364b457",
+    "services/crypto_macro_service.py": "0ab407b2f070c9e489b9c006ffb4cfcc03e1bd3d07d49bdb8e7635dbdfd1c6d0",
+    "services/local_store.py": "1bc324e9c9daa492bc867656c6c8037113fcea27eea077faa57fca304be50780",
+    "services/macro_service.py": "e633634b15927d8b1e807c4dbc25a81c53cd015996f30a5989d26116661fcb19",
+    "services/market_data.py": "97f4c257ed1c675a5e88eff50d6da7587b983f8ec99cd8e0e3f9cb9c417ffa3a",
+    "services/portfolio_risk_service.py": "4ca3c086a160b993c0302d3f9492e062a8df1948d4f2970a1c378155717427c9",
+    "services/portfolio_service.py": "b5d157d330e3086652f75c16ea2933df4d92d4447980354036da0d0733438c3b",
+    "services/research_service.py": "6797d8884184014c1be1143cc4f3e279e8b1a63a3097d09be167fb8c08f6e621",
+    "services/research_snapshots.py": "54f5dcaa38f4f8469a13dd14e91d099326f526de9d00a7185d962190dc0d52e9",
+    "strategies/__init__.py": "f43a5b09f821281bc4142d4c1cbce3149bff081156c1a81052570d5ef8fcbbdd",
+    "strategies/evaluator.py": "02f4b36a3b8a813032a90906466f5abefc867bad2ef570bd8ffd1221844cd399",
+    "strategies/models.py": "457885c7314f33139d01fa6b9dd9dfeef99009dce9438b1f278148dfdd323535",
+    "strategies/storage.py": "7372bc4b92cacb5649fd9b0c56da5a1b28e68fa587f7d5368bfbdfcc5ed345ac"
+  },
+  "recorded_on": "2026-11-12",
+  "schema_version": 1,
+  "sqlite_columns": {
+    "accounts": [
+      [
+        "id",
+        "TEXT",
+        0,
+        null,
+        1
+      ],
+      [
+        "revision",
+        "INTEGER",
+        1,
+        null,
+        0
+      ],
+      [
+        "payload",
+        "TEXT",
+        1,
+        null,
+        0
+      ],
+      [
+        "hash",
+        "TEXT",
+        1,
+        null,
+        0
+      ],
+      [
+        "updated",
+        "INTEGER",
+        1,
+        null,
+        0
+      ]
+    ],
+    "analyses": [
+      [
+        "id",
+        "TEXT",
+        0,
+        null,
+        1
+      ],
+      [
+        "payload",
+        "TEXT",
+        1,
+        null,
+        0
+      ],
+      [
+        "hash",
+        "TEXT",
+        1,
+        null,
+        0
+      ]
+    ],
+    "events": [
+      [
+        "account_id",
+        "TEXT",
+        1,
+        null,
+        1
+      ],
+      [
+        "id",
+        "TEXT",
+        1,
+        null,
+        2
+      ],
+      [
+        "payload",
+        "TEXT",
+        1,
+        null,
+        0
+      ]
+    ],
+    "metadata": [
+      [
+        "version",
+        "INTEGER",
+        0,
+        null,
+        1
+      ]
+    ],
+    "valuations": [
+      [
+        "account_id",
+        "TEXT",
+        1,
+        null,
+        1
+      ],
+      [
+        "revision",
+        "INTEGER",
+        1,
+        null,
+        2
+      ],
+      [
+        "as_of",
+        "TEXT",
+        1,
+        null,
+        3
+      ],
+      [
+        "payload",
+        "TEXT",
+        1,
+        null,
+        0
+      ],
+      [
+        "hash",
+        "TEXT",
+        1,
+        null,
+        0
+      ]
+    ]
+  }
+}
